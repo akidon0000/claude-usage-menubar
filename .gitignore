@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Logs / env
+*.log
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+
+# Common build output
+node_modules/
+dist/
+build/
