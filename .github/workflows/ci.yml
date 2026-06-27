@@ -12,12 +12,9 @@ concurrency:
 jobs:
   build:
     name: Build (Release)
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
-
-      - name: Select Xcode
-        run: sudo xcode-select -s /Applications/Xcode_16.app
 
       - name: Show toolchain
         run: |
