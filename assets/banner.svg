@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B1B1F"/>
+      <stop offset="1" stop-color="#2A1C16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8927C"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <!-- Faux menu bar strip -->
+  <rect x="0" y="0" width="1280" height="36" fill="#0E0E12" opacity="0.65"/>
+  <g transform="translate(1158,11) scale(0.9)" fill="url(#accent)">
+    <rect x="0"  y="8"  width="3.5" height="6"  rx="1"/>
+    <rect x="6"  y="4"  width="3.5" height="10" rx="1"/>
+    <rect x="12" y="0"  width="3.5" height="14" rx="1"/>
+  </g>
+  <text x="1182" y="23" font-family="-apple-system, SF Pro Display, Helvetica, sans-serif" font-size="13" fill="#E8C2B4">Usage</text>
+
+  <!-- Logo -->
+  <g transform="translate(120,90)">
+    <rect width="180" height="180" rx="40" fill="url(#accent)"/>
+    <g transform="translate(40,46)" fill="#FFFFFF">
+      <rect x="0"  y="58" width="20" height="34" rx="4"/>
+      <rect x="34" y="34" width="20" height="58" rx="4"/>
+      <rect x="68" y="12" width="20" height="80" rx="4"/>
+      <rect x="0" y="100" width="88" height="6" rx="3" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Title block -->
+  <g transform="translate(340,140)" font-family="-apple-system, SF Pro Display, Helvetica, sans-serif" fill="#FFFFFF">
+    <text font-size="60" font-weight="700">Claude Usage</text>
+    <text y="46" font-size="22" fill="#E8C8BC">See how you actually use Claude Code — from the menu bar.</text>
+    <g transform="translate(0,92)">
+      <rect width="150" height="32" rx="16" fill="#2E2018" stroke="#D97757" stroke-width="1"/>
+      <text x="75" y="21" font-size="14" text-anchor="middle" fill="#E8B49E">macOS 14+ · SwiftUI</text>
+      <rect x="166" width="120" height="32" rx="16" fill="#2E2018" stroke="#D97757" stroke-width="1"/>
+      <text x="226" y="21" font-size="14" text-anchor="middle" fill="#E8B49E">MIT License</text>
+      <rect x="302" width="130" height="32" rx="16" fill="#2E2018" stroke="#D97757" stroke-width="1"/>
+      <text x="367" y="21" font-size="14" text-anchor="middle" fill="#E8B49E">PRs welcome</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" font-family="-apple-system, SF Pro Display, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2E33"/>
+      <stop offset="1" stop-color="#1B1B1F"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="720" height="560" fill="url(#wall)"/>
+
+  <!-- Menu bar strip -->
+  <rect x="0" y="0" width="720" height="28" fill="#0E0E12" opacity="0.8"/>
+  <text x="190" y="19" font-size="12" fill="#9A9A9A">File  Edit  View  Window  Help</text>
+  <text x="566" y="19" font-size="12" fill="#9A9A9A">100%</text>
+  <text x="612" y="19" font-size="12" fill="#9A9A9A">Wi-Fi</text>
+  <!-- Active bar-chart icon -->
+  <g transform="translate(656,10)" fill="#D97757">
+    <rect x="0"  y="8"  width="3.5" height="6"  rx="1"/>
+    <rect x="6"  y="4"  width="3.5" height="10" rx="1"/>
+    <rect x="12" y="0"  width="3.5" height="14" rx="1"/>
+  </g>
+  <text x="688" y="19" font-size="12" fill="#CCCCCC">22:51</text>
+
+  <!-- Popover panel -->
+  <g transform="translate(290,40)">
+    <rect width="416" height="500" rx="14" fill="#1C1C20" stroke="#3A3A40" stroke-width="1" filter="url(#shadow)"/>
+    <rect width="416" height="500" rx="14" fill="#1C1C20" stroke="#3A3A40" stroke-width="1"/>
+
+    <!-- Header -->
+    <g transform="translate(16,14)">
+      <g transform="translate(0,3)" fill="#9A9A9A">
+        <rect x="0"  y="8"  width="3.5" height="6"  rx="1"/>
+        <rect x="6"  y="4"  width="3.5" height="10" rx="1"/>
+        <rect x="12" y="0"  width="3.5" height="14" rx="1"/>
+      </g>
+      <text x="26" y="14" font-size="15" font-weight="700" fill="#FFFFFF">Claude Code Usage</text>
+      <text x="300" y="14" font-size="11" fill="#777">22:51</text>
+      <text x="344" y="15" font-size="14" fill="#9A9A9A">↻</text>
+      <text x="372" y="15" font-size="14" fill="#9A9A9A">⊗</text>
+    </g>
+    <line x1="0" y1="44" x2="416" y2="44" stroke="#2C2C32" stroke-width="1"/>
+
+    <!-- Summary cards -->
+    <g transform="translate(16,60)">
+      <g>
+        <rect width="90" height="48" rx="8" fill="#8E5AD9" opacity="0.10"/>
+        <text x="45" y="24" font-size="18" font-weight="600" text-anchor="middle" fill="#B98BEA">1.2k</text>
+        <text x="45" y="40" font-size="10" text-anchor="middle" fill="#9A9A9A">Skills</text>
+      </g>
+      <g transform="translate(98,0)">
+        <rect width="90" height="48" rx="8" fill="#3FB950" opacity="0.10"/>
+        <text x="45" y="24" font-size="18" font-weight="600" text-anchor="middle" fill="#5FD06F">843</text>
+        <text x="45" y="40" font-size="10" text-anchor="middle" fill="#9A9A9A">MCP</text>
+      </g>
+      <g transform="translate(196,0)">
+        <rect width="90" height="48" rx="8" fill="#E8923C" opacity="0.10"/>
+        <text x="45" y="24" font-size="18" font-weight="600" text-anchor="middle" fill="#EFA862">126</text>
+        <text x="45" y="40" font-size="10" text-anchor="middle" fill="#9A9A9A">Agents</text>
+      </g>
+      <g transform="translate(294,0)">
+        <rect width="90" height="48" rx="8" fill="#4A9EE8" opacity="0.10"/>
+        <text x="45" y="24" font-size="18" font-weight="600" text-anchor="middle" fill="#73B6EF">2.6k</text>
+        <text x="45" y="40" font-size="10" text-anchor="middle" fill="#9A9A9A">Prompts</text>
+      </g>
+    </g>
+
+    <!-- By genre -->
+    <text x="16" y="134" font-size="12" fill="#9A9A9A">By genre</text>
+    <g transform="translate(16,144)" font-size="12">
+      <g transform="translate(0,0)">
+        <rect width="384" height="30" rx="6" fill="#4A9EE8" opacity="0.08"/>
+        <text x="10" y="20" fill="#73B6EF">▦</text>
+        <text x="30" y="20" fill="#FFFFFF" font-weight="500">work</text>
+        <text x="250" y="20" fill="#B98BEA">✦ 612</text>
+        <text x="300" y="20" fill="#5FD06F">🔗 410</text>
+        <text x="352" y="20" fill="#73B6EF">▾</text>
+      </g>
+      <g transform="translate(0,34)">
+        <text x="10" y="20" fill="#B98BEA">●</text>
+        <text x="30" y="20" fill="#FFFFFF" font-weight="500">personal</text>
+        <text x="250" y="20" fill="#B98BEA">✦ 488</text>
+        <text x="300" y="20" fill="#5FD06F">🔗 322</text>
+        <text x="356" y="20" fill="#777">›</text>
+      </g>
+      <g transform="translate(0,64)">
+        <text x="10" y="20" fill="#EFA862">⚒</text>
+        <text x="30" y="20" fill="#FFFFFF" font-weight="500">side-project</text>
+        <text x="250" y="20" fill="#B98BEA">✦ 148</text>
+        <text x="300" y="20" fill="#5FD06F">🔗 111</text>
+        <text x="356" y="20" fill="#777">›</text>
+      </g>
+    </g>
+
+    <!-- Repos (work) -->
+    <text x="16" y="270" font-size="12" fill="#9A9A9A">Repos (work)</text>
+    <g transform="translate(16,280)" font-size="12">
+      <!-- expanded repo -->
+      <rect width="384" height="118" rx="6" fill="#FFFFFF" opacity="0.04"/>
+      <text x="10" y="20" font-family="SF Mono, Menlo, monospace" fill="#FFFFFF" font-weight="500">sansan-ios</text>
+      <text x="340" y="20" fill="#CCCCCC" font-weight="600">487</text>
+      <text x="364" y="20" fill="#73B6EF">▾</text>
+      <!-- mini stats -->
+      <g transform="translate(24,40)" text-anchor="middle">
+        <text x="0" y="0" font-size="12" font-weight="600" fill="#B98BEA">281</text>
+        <text x="0" y="14" font-size="9" fill="#9A9A9A">Skills</text>
+        <text x="70" y="0" font-size="12" font-weight="600" fill="#5FD06F">163</text>
+        <text x="70" y="14" font-size="9" fill="#9A9A9A">MCP</text>
+        <text x="140" y="0" font-size="12" font-weight="600" fill="#EFA862">22</text>
+        <text x="140" y="14" font-size="9" fill="#9A9A9A">Agents</text>
+        <text x="212" y="0" font-size="12" font-weight="600" fill="#73B6EF">21</text>
+        <text x="212" y="14" font-size="9" fill="#9A9A9A">Prompts</text>
+      </g>
+      <text x="24" y="74" font-size="9" fill="#777">Top skills</text>
+      <g transform="translate(24,80)" font-size="10">
+        <rect width="92" height="18" rx="9" fill="#8E5AD9" opacity="0.12"/>
+        <text x="8" y="13" fill="#C9A4EF">ios-run-build (96)</text>
+        <rect x="100" width="86" height="18" rx="9" fill="#8E5AD9" opacity="0.12"/>
+        <text x="108" y="13" fill="#C9A4EF">git-commit (74)</text>
+      </g>
+
+      <!-- collapsed repo -->
+      <g transform="translate(0,128)">
+        <rect width="384" height="30" rx="6" fill="#FFFFFF" opacity="0.04"/>
+        <text x="10" y="20" font-family="SF Mono, Menlo, monospace" fill="#FFFFFF" font-weight="500">sansan-android</text>
+        <text x="340" y="20" fill="#CCCCCC" font-weight="600">312</text>
+        <text x="366" y="20" fill="#777">›</text>
+      </g>
+    </g>
+  </g>
+</svg>
